@@ -128,9 +128,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4004202086546190}
   - component: {fileID: 114525893522440608}
-  - component: {fileID: 114035071370948022}
   - component: {fileID: 114752477184458240}
   - component: {fileID: 114402102356574174}
+  - component: {fileID: 114083507607037102}
   m_Layer: 0
   m_Name: karnaugh
   m_TagString: Untagged
@@ -4815,7 +4815,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - GUI/KT 3D Text
---- !u!114 &114035071370948022
+--- !u!114 &114055337405028384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879495061607764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - GUI/KT 3D Text
+--- !u!114 &114083507607037102
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -4854,19 +4867,6 @@ MonoBehaviour:
   - {fileID: 102735658811437440}
   - {fileID: 102552836678779846}
   - {fileID: 102354159646023488}
---- !u!114 &114055337405028384
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1879495061607764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShaderNames:
-  - GUI/KT 3D Text
 --- !u!114 &114113127865914676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5544,7 +5544,7 @@ MonoBehaviour:
   m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
+  Parent: {fileID: 114752477184458240}
   Children:
   - {fileID: 114942507221200024}
   - {fileID: 114942507221200024}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-public class script : MonoBehaviour {
+public class karnaughScript : MonoBehaviour {
 
     public KMSelectable button1, button2, button3, button4, buttonD, buttonS;
     public KMAudio Audio;
